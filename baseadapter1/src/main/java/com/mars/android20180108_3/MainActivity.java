@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         MyAdapter adapter = new MyAdapter();
         lv.setAdapter(adapter);
     }
-
+    //BaseAdapter是一個抽象類別,不能new只能用繼承的方式
      class MyAdapter extends BaseAdapter
      {
 
